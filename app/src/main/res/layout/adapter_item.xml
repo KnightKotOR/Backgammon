@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/playerGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/games" />
+
+    <TextView
+        android:id="@+id/playerWins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/wins" />
+
+    <TextView
+        android:id="@+id/playerLoses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/loses" />
+
+    <TextView
+        android:id="@+id/playerPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/percent"
+        android:padding="10dp" />
+
+</LinearLayout>
