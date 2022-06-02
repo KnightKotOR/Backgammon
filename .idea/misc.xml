@@ -10,11 +10,16 @@
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/activity_game.xml" value="0.4" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/activity_leaderboard.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/activity_main.xml" value="0.39010416666666664" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/activity_player.xml" value="0.32834544677212485" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/activity_rules.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/adapter_item.xml" value="0.403125" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/array_adapter.xml" value="0.33076923076923076" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/black_bar.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/board_item.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/bottom_point.xml" value="0.403125" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/cursor_adapter_item.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/item.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/statistics_item.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/test.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/top_point.xml" value="0.403125" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/Backgammon/app/src/main/res/layout/white_bar.xml" value="0.403125" />

@@ -5,22 +5,27 @@
     <string name="Leaderboard">Таблица лидеров</string>
     <string name="board">board</string>
     <string name="background_board">background_board</string>
-    <string name="add_record">Добавить запись</string>
-    <string name="delete_record">Удалить запись</string>
-    <string name="Board">board</string>
     <string name="count_of_games">Count of games</string>
     <string name="count_of_wins">Count of wins</string>
+
+
     <string name="name">Name</string>
-    <string name="save">Save</string>
     <string name="games">Games</string>
     <string name="wins">Wins</string>
     <string name="loses">Loses</string>
     <string name="percent">Percent</string>
+
+
     <string name="Player">Игрок</string>
     <string name="Games">Сыграл</string>
     <string name="Wins">Выиграл</string>
     <string name="Loses">Проиграл</string>
     <string name="Percent">Процент побед</string>
 
+    <string name="counter">1</string>
+
+    <string name="introduce">Представьтесь</string>
+    <string name="White">Белый игрок</string>
+    <string name="Black">Черный игрок</string>
 
 </resources>

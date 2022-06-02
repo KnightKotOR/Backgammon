@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
@@ -16,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button play = findViewById(R.id.btnPlay);
+        Button play = findViewById(R.id.btnPlayers);
         Button leaderboard = findViewById(R.id.btnLeaderboard);
         play.setOnClickListener(this);
         leaderboard.setOnClickListener(this);
@@ -25,8 +24,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btnPlay:
-                Intent intent1 = new Intent(this, GameActivity.class);
+            case R.id.btnPlayers:
+                Intent intent1 = new Intent(this, PlayerActivity.class);
                 startActivity(intent1);
                 break;
             case R.id.btnLeaderboard:
@@ -36,5 +35,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             default:
                 break;
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
     }
 }

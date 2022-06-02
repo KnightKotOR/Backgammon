@@ -2,7 +2,6 @@ package com.example.backgammon;
 
 import android.database.Cursor;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -27,7 +26,7 @@ public class LeaderboardActivity extends AppCompatActivity {
         DatabaseHelper dbh= new DatabaseHelper(getApplicationContext());
 
 
-        Cursor cursor = dbh.getReadableDatabase().rawQuery("SELECT * FROM Empdata", null);
+        Cursor cursor = dbh.getReadableDatabase().rawQuery("SELECT * FROM Statistics", null);
         cursor.moveToFirst();
 
         while (!cursor.isAfterLast()){
@@ -45,8 +44,8 @@ public class LeaderboardActivity extends AppCompatActivity {
         String[] from = { "name", "games", "wins", "loses", "percent"};
         int[] to = { R.id.playerName, R.id.playerGames, R.id.playerWins, R.id.playerLoses, R.id.playerPercent};
 
-        SimpleAdapter adapter = new SimpleAdapter(this, players, R.layout.adapter_item, from, to);
-        ListView listView = (ListView) findViewById(R.id.listView);
+        SimpleAdapter adapter = new SimpleAdapter(this, players, R.layout.statistics_item, from, to);
+        ListView listView = findViewById(R.id.playerView);
         listView.setAdapter(adapter);
     }
 

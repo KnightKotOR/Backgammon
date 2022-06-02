@@ -1,4 +1,4 @@
-package com.example.backgammon.game;
+package com.example.backgammon.logic;
 
 public class Checker {
     private Integer count;
